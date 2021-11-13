@@ -1,0 +1,76 @@
+.modal {
+  display: none;
+  padding-top: 50px;
+  background-color:rgba(0, 0, 0, 0.8) 
+}
+
+.large-images {
+  position: relative;
+  margin: auto;
+  width: 420px;
+  height: 580px;
+ 
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  font-size: 30px;
+}
+
+.close:hover {
+  color:gray;
+  text-decoration: none;
+}
+
+.mySlides {
+  display: none;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.pre {
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.next {
+  right: 0;
+}
+
+.next:hover {
+  color:gray;
+  background-color:transparent;
+}
+
+.pre:hover{
+  color:gray;
+  background-color:transparent;
+}
+
+.row{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+
+
+.img{
+  width:100%;
+  height:100%;
+}
+
+.img:hover {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
